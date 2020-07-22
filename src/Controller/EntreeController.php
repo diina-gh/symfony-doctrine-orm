@@ -17,6 +17,7 @@ class EntreeController extends AbstractController
      */
     public function index()
     {
+        //code here
         $em = $this->getDoctrine()->getManager();
 
         $e = new Entree();
